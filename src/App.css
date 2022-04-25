@@ -1,0 +1,29 @@
+.App {
+  text-align: center;
+}
+
+.header{
+  background-color: red;
+}
+
+nav{
+  border: solid 1px black;
+  width: 100%;
+  height: 80px;
+  margin: auto;
+  font-size: 25px;
+  font-weight: bold;
+  background-color: pink;
+  
+  
+}
+nav>navlink{
+  padding: 20px;
+  cursor: pointer;
+  margin-top: 50px;
+  color: blue;
+}
+nav>navlink:hover{
+   color: red;
+  
+}
